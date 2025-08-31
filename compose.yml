@@ -1,0 +1,11 @@
+service:
+    learning_cxx:
+        build: .
+        image: learning-cxx
+
+networks:
+    learning_cxx-net:
+        name: learning_cxx-net
+        ipam:
+            config:
+                -   subnet: 172.16.238.0/24

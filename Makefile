@@ -5,7 +5,7 @@ APP_NAME := learning-cxx
 
 # init
 init:
-	@pre-commit install --hook-type commit-msg --hook-type pre-push
+	@prek install --hook-type commit-msg --hook-type pre-push
 
 # compile and build
 build:
